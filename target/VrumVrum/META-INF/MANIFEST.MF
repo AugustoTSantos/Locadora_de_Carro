@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: augus
+Build-Jdk: 18
+Main-Class: com.example.view.Main
+
