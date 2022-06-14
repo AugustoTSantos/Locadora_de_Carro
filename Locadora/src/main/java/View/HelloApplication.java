@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene((Parent) fxmlLoader.load(), 375, 275);
         stage.setTitle("Locadora de Carro");
         stage.setScene(scene);
-        stage.getIcons().add(new Image("https://raw.githubusercontent.com/MrZeroLeft/Locadora/main/Katiau.jpg"));
+        stage.getIcons().add(new Image("https://github.com/MrZeroLeft/Locadora_de_Carro/blob/Primeira_Entrega/Katiau.jpg"));
         stage.setResizable(false);
         stage.show();
     }

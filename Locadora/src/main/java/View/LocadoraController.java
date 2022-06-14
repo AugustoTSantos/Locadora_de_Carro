@@ -11,9 +11,6 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 
 public class LocadoraController implements Initializable{
-
-    private String[] opcoes = {"Sim", "Não"};
-
     
     @FXML
     private ComboBox<String> ComboBoxDisponivelAtualmenteCarro;
@@ -55,6 +52,11 @@ public class LocadoraController implements Initializable{
 
 
     @FXML
+    void confirmarAluguel(ActionEvent event) {
+
+    }
+    
+    @FXML
     void confirmarCarro(ActionEvent event) {
 
     }
@@ -69,12 +71,9 @@ public class LocadoraController implements Initializable{
 
     }
 
-    @FXML
-    void confirmarNegociacao(ActionEvent event) {
 
-    }
-
-
+    private String[] opcoes = {"Sim", "Não"};
+    
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         comboBoxComCarroAtualmenteCliente.getItems().addAll(opcoes);

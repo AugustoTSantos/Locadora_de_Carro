@@ -104,7 +104,7 @@
                         </AnchorPane>
                     </content>
                   </Tab>
-                  <Tab text="Negociação">
+                  <Tab text="Aluguel">
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                            <children>
@@ -121,10 +121,10 @@
                                     <DatePicker fx:id="datePickerDataAluguelNegociacao" GridPane.columnIndex="1" />
                                     <DatePicker fx:id="datePickerDataEntregaNegociacao" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                                     <Label text="Data do Aluguel" />
-                                    <Label text="Data da Entrega" GridPane.rowIndex="1" />
+                                    <Label text="Data da Devolução" GridPane.rowIndex="1" />
                                  </children>
                               </GridPane>
-                              <Button layoutX="151.0" layoutY="173.0" mnemonicParsing="false" onAction="#confirmarNegociacao" text="Confirmar" />
+                              <Button layoutX="151.0" layoutY="173.0" mnemonicParsing="false" onAction="#confirmarAluguel" text="Confirmar" />
                            </children>
                         </AnchorPane>
                     </content>
